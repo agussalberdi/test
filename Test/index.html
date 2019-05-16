@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home | ConVista</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/hamburgers.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <nav class="main-nav">
+                <div id="logo">
+                    <img src="assets/img/logo.png"/>
+                </div>
+                <a data-link="about">About Us</a>
+                <a data-link="services">Services</a>
+                <a data-link="contact">Contact</a>
+                <a href="#" id="search-icon">
+                    <i class="fas fa-search"></i>
+                </a>
+            </nav>
+            
+            <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="wrapper">
+                <h4 class="title">Where are we?</h4>
+                <div class="slider">
+                    <div class="slide">
+                        <span class="city-name">Barcelona</span>
+                        <img src="assets/img/barcelona.jpg">
+                    </div>
+                    <div class="slide">
+                        <span class="city-name">Madrid</span>
+                        <img src="assets/img/madrid.jpg">
+                    </div>
+                    <div class="slide">
+                        <span class="city-name">Munich</span>
+                        <img src="assets/img/munich.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="service-box">
+                        <span>Tesorería</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="service-box">
+                        <span>Innovación</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="service-box">
+                        <span>Analytics</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="service-box">
+                        <span>Experiencia Usuario</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="wrapper">
+                <form method="post" id="formulario">
+                    <h4 class="title">Contactanos</h4>
+                    <div class="form-item">
+                        <input type="text" name="name" required />
+                        <label for="name">Full name</label>
+                    </div>
+                    <div class="form-item">
+                        <input type="email" name="email" required />
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-item">
+                        <input type="text" name="phone" required />
+                        <label for="phone">Phone</label>
+                    </div>
+                    <div class="form-item">
+                        <textarea name="message" cols="30" rows="10" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="button">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer-container">
+                <nav class="main-nav">
+                    <a data-link="about">About Us</a>
+                    <a data-link="services">Services</a>
+                    <a data-link="contact">Contact</a>
+                    <div id="copyright">
+                        <p>2019 Agustin Alberdi.</p>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top" style="display: inline;">
+        <i class="fas fa-arrow-up"></i>  
+    </a>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+</body>
+</html>
